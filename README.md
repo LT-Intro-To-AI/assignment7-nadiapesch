@@ -1,5 +1,5 @@
 ---
-title: 'Assignment 6: Neural Nets'
+title: 'Assignment 7: Neural Nets'
 author: |
   | Assignment written by Rett Bull, Pomona College with changes
   | by Nathan Shelly and Sara Sood, Northwestern University.
