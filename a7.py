@@ -58,7 +58,7 @@ test_data = [
 ]
 
 print(f"case 1: {test_data[0]} evaluates to: {von.evaluate(test_data[0])}")
-print(f"case 1: {test_data[1]} evaluates to: {von.evaluate(test_data[1])}")
-print(f"case 1: {test_data[2]} evaluates to: {von.evaluate(test_data[2])}")
-print(f"case 1: {test_data[3]} evaluates to: {von.evaluate(test_data[3])}")
-print(f"case 1: {test_data[4]} evaluates to: {von.evaluate(test_data[4])}")
+print(f"case 2: {test_data[1]} evaluates to: {von.evaluate(test_data[1])}")
+print(f"case 3: {test_data[2]} evaluates to: {von.evaluate(test_data[2])}")
+print(f"case 4: {test_data[3]} evaluates to: {von.evaluate(test_data[3])}")
+print(f"case 5: {test_data[4]} evaluates to: {von.evaluate(test_data[4])}")
