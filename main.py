@@ -68,9 +68,9 @@ print(len(test_data))
 # for line in td:
 #     print(line)
 
-nn = NeuralNet(4, 3, 1)
+nn = NeuralNet(4, 6, 1)
 
-nn.train(train_data, learning_rate=.8)
+nn.train(train_data, learning_rate=.9)
 
 for i in nn.test_with_expected(test_data):
     print(f"desired: {i[1]}, actual: {i[2]}")
