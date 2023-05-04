@@ -70,7 +70,7 @@ print(len(test_data))
 
 nn = NeuralNet(4, 6, 1)
 
-nn.train(train_data, learning_rate=.9)
+nn.train(train_data, learning_rate=.85)
 
 for i in nn.test_with_expected(test_data):
     print(f"desired: {i[1]}, actual: {i[2]}")
